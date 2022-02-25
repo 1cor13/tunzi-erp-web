@@ -1,0 +1,37 @@
+.profile-page .p-l-0.p-r-0{padding-right:0px !important;padding-left:0px !important}
+.profile-page .profile-header{background:transparent url("{{ asset('assets/img/rover.jpeg') }}") repeat scroll center center/cover;color:#fff;padding-bottom:30px;padding-top:30px;position:relative;text-align:center;border-radius:3px 3px 0 0}
+.profile-page .profile-header .profile_info .profile-image img{border-radius:50%; max-width: 15%;}
+.profile-page .profile-header .profile_info .social-icon a{margin:0 5px}
+.profile-page .profile-header .profile_info .social-icon a i{color:#fff}
+.profile-page .profile-sub-header{min-height:60px;width:100%;margin-bottom:15px}
+.profile-page .profile-sub-header .box-list ul{display:inline-table;padding:0;margin:0;table-layout:fixed;width:100%;background:#f2f2f2}
+.profile-page .profile-sub-header .box-list ul li{border-right:1px solid #dedede;border-bottom:1px solid #dedede;display:table-cell;list-style:outside none none}
+.profile-page .profile-sub-header .box-list ul li a{display:block;padding:15px 0;color:#444}
+.profile-page .profile-sub-header .box-list ul li a:hover{text-decoration:none;color:#fff}
+.profile-page .profile-sub-header .box-list ul li a i{font-size:20px}
+.profile-page .profile-sub-header .box-list ul li a p{margin:0}
+.profile-page .profile-sub-header .box-list ul li:last-child{border-right:none}
+.profile-page #mypost .mypost-form{margin-bottom:15px}
+.profile-page #mypost .mypost-form .form-group{margin:0}.profile-page #mypost .post-box .post-img{margin-bottom:15px;max-height:300px;overflow:hidden}
+.profile-page #timeline .timeline{border-left:1px solid #dedede;font-size:14px;position:relative}
+.profile-page #timeline .timeline .border-info{border-color:#03a9f4}.profile-page #timeline .timeline .border-warning{border-color:#fbc02d}
+.profile-page #timeline .timeline .border-danger{border-color:#f44336}.profile-page #timeline .timeline .timeline-item{margin-bottom:20px;padding-bottom:1px;position:relative}
+.profile-page #timeline .timeline .timeline-item:after{background-color:#fff;border-color:inherit;border-radius:50%;border-style:solid;border-width:2px;content:"";height:11px;left:0;margin-left:-6px;position:absolute;width:11px;bottom:auto;clear:both;top:4px}
+.profile-page #timeline .timeline .timeline-item .item-content{margin-left:24px;margin-top:0}
+.profile-page #timeline .timeline .timeline-item .item-content p{font-weight:400;color:#444}
+.profile-page #usersettings .form-group{margin-bottom:0}
+
+@media only screen and (max-width: 800px){
+    .top-icons {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+}
+@media only screen and (max-width: 414px){
+    .profile-page .profile-sub-header .box-list li a{padding:20px 0 !important}
+    .profile-page .profile-sub-header .box-list li p{display:none}
+    .top-icons {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}

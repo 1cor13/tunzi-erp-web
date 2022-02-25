@@ -1,0 +1,42 @@
+.drop-menu-image { max-width: 20vh; height: auto; border-radius: 5px; }
+.dropdown-item { font-size: 15px; }
+.divider { width: 100%; margin-top: 15px; margin-bottom: 15px; }
+.nav-profile-image img { width: 98%; min-width: 50px; height: auto; border-radius: 5px; }
+.cs-pointer { cursor: pointer; }
+.modal.right .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 800px;
+	height: 100%;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+.point-cursor { cursor: pointer; }
+.modal.left .modal-content,
+.modal.right .modal-content { height: 100%; }
+.not-cont { display: flex; justify-content: center; align-items: center; align-content: center; position: absolute; z-index: 2; width: 100%;  }
+.alert-d-message { min-width: 50%; align-self: center; }
+
+/* Right */
+.modal.right.fade .modal-dialog {
+	right: 0;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.modal.right.fade.in .modal-dialog { right: 0; }
+.right .modal-dialog { max-width: 800px; }
+.right form h4 { padding: 10px 10px; background: #f3f1f1; }
+.User-name { font-size: 14px; color: #9e9b9b; position: absolute; left: 18%; top: 0px; }
+.md-close { display: none; }
+.right .close { position: absolute; right: 12px !important; width: auto; height: auto; background: none; color: #000; left: unset; top: 18px; }
+.modal-body { overflow: auto; }
+a:active, button:active { box-shadow: 0 5px #666; /* transform: translateY(4px); */ transform: scale(.8); }
+.paginate_button.active { background: #667eea; }
+.paginate_button.active a { background-color: transparent !important; color: #fff; }
+.dataTables_paginate.paging_simple_numbers, .dataTables_filter { margin-right: 0% !important; margin-left: auto !important; }
+.paginate_button.next.disabled a, .paginate_button.previous.disabled a { color: #333; }
+.profile-img-wrap img, .profile-img img { width: auto; }

@@ -1,0 +1,40 @@
+{
+  "database": "tunzi-data-db",
+  "version": 1,
+  "encrypted": false,
+  "mode": "full",
+  "tables": [
+    {
+      "name": "user",
+      "schema": [
+        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
+        { "column": "app_id", "value": "INTEGER NOT NULL" },
+        { "column": "section_name", "value": "TEXT NOT NULL" },
+        { "column": "section_value", "value": "TEXT NOT NULL" },
+        { "column": "section_category", "value": "TEXT NOT NULL" },
+        { "column": "last_modified", "value": "INTEGER DEFAULT (strftime('%s', 'now'))" },
+        { "column": "first_modified", "value": "INTEGER DEFAULT (strftime('%s', 'now'))" }
+      ],
+      "values": []
+    },
+    {
+      "name": "products",
+      "schema": [
+        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
+        { "column": "name", "value": "TEXT NOT NULL" },
+        { "column": "currency", "value": "TEXT" },
+        { "column": "value", "value": "INTEGER" },
+        { "column": "user_id", "value": "INTEGER" },
+        { "column": "sync_status", "value": "TEXT" },
+        { "column": "unique_string", "value": "TEXT" },
+        { "column": "last_modified", "value": "INTEGER DEFAULT (strftime('%s', 'now'))" },
+        { "column": "first_modified", "value": "INTEGER DEFAULT (strftime('%s', 'now'))" },
+        {
+          "foreignkey": "user_id",
+          "value": "REFERENCES user(id)"
+        }
+      ],
+      "values": [ ]
+    }
+  ]
+}

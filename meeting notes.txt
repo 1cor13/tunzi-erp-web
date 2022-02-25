@@ -1,0 +1,165 @@
+meeting notes
+    - TIN number
+
+
+    // ----------
+Assets
+- The items in inventory
+- Company furniture, cars, equipments, shelves
+- 
+
+Liabilities
+- Expenses
+- Salaries
+- Loans
+- Donations
+- Loses
+
+
+The categories/types of inventories
+What to capture
+	- the goods
+		- categories
+	- the asset register
+		- what the business use to make money or can use such as computers or cars
+		for purposes of calculating depreciation (depreciation schedule module)
+
+	- Analyticats to capture under this
+		- The more selling stock items
+		- The number of those that are about to get finished
+		- About to expire
+		- Generating of an order list
+			- to generate those about to get done
+				- send to email as an attachment
+				- or save as a PDF by a supplier
+					- for suplier A, or B from the details
+				- create visuals
+				- 
+	- Current assets are moving (goods selling, money in the bank)
+	- fixed assets (computers, furnitures and cars)
+
+
+	product list
+	- the supplier
+	case one
+	- first entry with bar code
+	case two
+	- for reporting
+
+	- Accounts receivable - Asset
+Liabilities
+	- The current liabilities (payments, depreciation - money )
+		- Accounts payable (get a good and pay it later) (Acc payable, Revenue Earned )
+		- 
+		- 
+	- Long term liabilities (loans)
+
+* A ledger is to group expenses and cash for on f a specific item
+	eg - tax ledger by month and year
+
+
+
+- mark up is a profit you want for a product
+---------------------------------------------------------------------------------------------
+The Accounting
+Types of reports - Financial Statements
+1. Profit and Loss Statement
+	- 
+
+
+2. Balance Sheet
+	- table of liabilities and assets
+		* They should balance
+		- Liabilities
+			- Owners's equity (money invested in the business)
+				- Money you started with
+				- money you do not take (owners)
+		- Assets
+			The cash
+
+	- Trial Balance
+		From charts of accounts 
+			Charts of accounts have ledgers which supply the information above
+	- (Mobile app will be entering in a major)
+	* can come in inventory, assets for depreciation, Pay roll, Owners Equity for profiling ad accounting, POS
+
+
+3. Statement of Changes in Equity
+	- Show how the owners money is coming from
+	- 
+
+
+
+4. Income Statement
+	- 
+
+
+
+-----------------------------------------------------------
+- The owner who creates it
+
+- The manager 
+	- HR
+	- Accounts
+	- Inventory
+
+- Sales Person
+	- Point of sale
+	- For petty cash
+
+- Accountant
+	- Inventory
+	- Accounts
+
+- Delivery Person
+
+
+
+
+--------------------------------------------
+mobile app
+- change this to service sector To offer acconting services
+- have to co-orperations
+- one business owner
+
+- email, not the business email
+
+- have a business category like textiles, boutique, pharmacy, harbal store ...etc
+- remove Brief Description
+
+
+-* Default
+- have a list 
+
+-- Sales report
+-- Take Stock Count
+	- Count the stock you have
+	- receiving the stock
+	- 
+-- Add expense
+	- 
+	- 
+-- Add A sale
+
+
+A delivery note is what you sign on to show that you have received the item
+-- sending the report on email to trigger sending the email.
+-- 
+-- 
+
+
+Website - CSV
+
+-----------------------------------------------------------------------------------------------------
+
+1.5 M
+2 M
+1 M
+0.5 M
+
+3.5 M
+--------------------
+1.2 M
+4 M
+2.5 M
+
